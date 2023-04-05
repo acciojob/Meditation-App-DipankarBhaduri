@@ -1,35 +1,5 @@
 //your JS code here. If required.
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@DipankarBhaduri 
-acciojob
-/
-Meditation-App-parvg555
-Public
-generated from acciojob/Meditation-App
-Fork your own copy of acciojob/Meditation-App-parvg555
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-Meditation-App-parvg555/script.js /
-@parvg555
-parvg555 created a submission
-Latest commit a989673 last month
- History
- 2 contributors
-@acciojob-4@parvg555
-79 lines (70 sloc)  2.17 KB
-
+//your JS code here. If required.
 const song = document.querySelector(".song");
 const play = document.querySelector(".play");
 const replay = document.querySelector(".replay");
@@ -107,20 +77,5 @@ song.ontimeupdate = function () {
     song.currentTime = 0;
     play.src = "./svg/play.svg";
     video.pause();
-  }
+  }
 };
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Meditation-App-parvg555/script.js at master · acciojob/Meditation-App-parvg555
